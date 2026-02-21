@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Redeem Confirmed</title>
 </head>
 <body>
-    <div class="statementPage" id="redeemConfirmed">
-        <h1>PARABÉNS</h1>
-        <h2>Seu presente foi confirmado e chegará ainda hoje</h2>
-    </div>
+    <form method="get" action="../php/verifyRedeem.php">    
+        <div class="statementPage" id="redeemConfirmed">
+            <h1>PARABÉNS</h1>
+            <h2>Seu presente foi confirmado e chegará ainda hoje</h2>
+            <p>Enviaremos mais informações assim que possível</p>
+            <p><span>SEU NAMORADO TE AMA MUITOOOO <3</span></p>
+            <button><input type="submit" name="giftRedeem" value="1" hidden>Voltar a tela inicial</button>
+        </div>
+    </form>
 </body>
 </html>
